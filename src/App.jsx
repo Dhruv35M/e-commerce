@@ -7,7 +7,14 @@ function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <div
+        style={{
+          paddingTop: "100px",
+          paddingBottom: "50px",
+        }}
+      >
+        <Outlet />
+      </div>
       <Footer />
     </>
   );
